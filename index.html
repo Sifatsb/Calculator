@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <section class="container">
+
+        <div class="calculator">
+
+            <input id="inputText" type="text" placeholder="0">
+            <button onclick="clearDisplay()">CL</button>
+            <button onclick="del()">DEL</button>
+            <button onclick="displayItem('%')">%</button>
+            <button onclick="displayItem('/')">/</button>
+            <button onclick="displayItem('7')">7</button>
+            <button onclick="displayItem('8')">8</button>
+            <button onclick="displayItem('9')">9</button>
+            <button onclick="displayItem('*')">*</button>
+            <button onclick="displayItem('4')">4</button>
+            <button onclick="displayItem('5')">5</button>
+            <button onclick="displayItem('6')">6</button>
+            <button onclick="displayItem('-')">-</button>
+            <button onclick="displayItem('1')">1</button>
+            <button onclick="displayItem('2')">2</button>
+            <button onclick="displayItem('3')">3</button>
+            <button onclick="displayItem('+')">+</button>
+            <button onclick="displayItem('.')">.</button>
+            <button onclick="displayItem('0')">0</button>
+            <button class="equal" onclick="calculate()">=</button>
+
+
+        </div>
+
+    </section>
+
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
