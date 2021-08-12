@@ -6,7 +6,14 @@ function displayItem(item){
 
 function calculate(){
     try{
-        outputDisplay.value = eval(outputDisplay.value)
+        if(outputDisplay.value === ""){
+            
+            alert("Give Input First") 
+        }
+        else{
+            outputDisplay.value = eval(outputDisplay.value)
+        }
+        
     }
     catch(err){
         alert("Invalid Input")
